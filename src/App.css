@@ -15,6 +15,30 @@
   }
 }
 
+.header1 {
+  font-size: 100px;
+}
+
+.header6 {
+  font-size: 24px;
+}
+
+.strike {
+  position: relative;
+  text-decoration: none;
+}
+
+.strike::before {
+  content: "";
+  position: absolute;
+  bottom: 0.55em;
+  left: 0;
+  right: 0;
+  height: 0.12em;
+  background: linear-gradient(to bottom, red 0, red 100%);
+  z-index: -1;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
