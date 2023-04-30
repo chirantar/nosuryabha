@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nosuryabha/static/css/main.bb6b3da5.css",
+    "main.js": "/nosuryabha/static/js/main.29129eb0.js",
+    "static/js/787.0659e4be.chunk.js": "/nosuryabha/static/js/787.0659e4be.chunk.js",
+    "static/media/logo.svg": "/nosuryabha/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/nosuryabha/index.html",
+    "main.bb6b3da5.css.map": "/nosuryabha/static/css/main.bb6b3da5.css.map",
+    "main.29129eb0.js.map": "/nosuryabha/static/js/main.29129eb0.js.map",
+    "787.0659e4be.chunk.js.map": "/nosuryabha/static/js/787.0659e4be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb6b3da5.css",
+    "static/js/main.29129eb0.js"
+  ]
+}
