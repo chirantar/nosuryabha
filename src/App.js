@@ -1,25 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import {useTypingText} from "./useTypingText";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const { word } = useTypingText(['Hi', 'Hello', 'whatsup'], 130, 20);
+
+    return (
+        <div className="App">
+            <p>
+                <h1>No {word}</h1>
+            </p>
+        </div>
+    );
 }
 
 export default App;
