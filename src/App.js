@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import {useTypingText} from "./useTypingText";
 
 function App() {
 
-    const { word } = useTypingText(['hiiii', 'hello', 'whatsup', 'how are are you'], 130, 20);
+    const { word } = useTypingText(['hiiii', 'hello', 'whatsup', 'how are you?'], 130, 20);
 
     return (
         <div className="App">

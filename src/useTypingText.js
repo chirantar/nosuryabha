@@ -25,7 +25,6 @@ export const useTypingText = (
 
 
     useEffect(() => {
-        let pauseCounter = 0;
 
         if (isStopped) return;
         const backspace = () => {
